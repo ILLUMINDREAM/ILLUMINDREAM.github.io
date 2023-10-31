@@ -40,7 +40,7 @@ social:
 # --------------------------------------
 
 # Favicon（網站圖標）
-favicon: https://pic.imgdb.cn/item/65411a90c458853aefb6c9dc.png
+favicon: /img/favicon.png
 
 # Avatar (頭像)
 avatar:
@@ -57,7 +57,7 @@ index_img: https://pic.imgdb.cn/item/65411997c458853aefb0cea0.jpg
 default_top_img:
 
 # The banner image of archive page
-archive_img:
+archive_img: https://pic.imgdb.cn/item/65411f6cc458853aefd6ac97.jpg
 
 # If the banner of tag page not setting, it will show the top_img
 # note: tag page, not tags page (子標籤頁面的 top_img)
