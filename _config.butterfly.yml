@@ -16,8 +16,10 @@ menu:
   # List||fas fa-list:
   #   Music: /music/ || fas fa-music
   #   Movie: /movies/ || fas fa-video
+  影音 || fas fa-list:
+      图集: /images/ || fas fa-images
   友链: /link/ || fas fa-link
-  关于: /about/ || fas fa-heart
+  # 关于: /about/ || fas fa-heart
 
 # Code Blocks (代碼相關)
 # --------------------------------------
@@ -40,24 +42,24 @@ social:
 # --------------------------------------
 
 # Favicon（網站圖標）
-favicon: /img/favicon.png
+favicon: https://picdm.sunbangyan.cn/2023/11/01/f81d760275275210c7b59d79aa1bbc1b.png
 
 # Avatar (頭像)
 avatar:
-  img: https://pic.imgdb.cn/item/65411a90c458853aefb6c9dc.png
+  img: https://pic.imgdb.cn/item/65411a90c458853aefb6c9dc.png # Lilya
   effect: false
 
 # Disable all banner image
 disable_top_img: false
 
 # The banner image of home page
-index_img: https://pic.imgdb.cn/item/65411997c458853aefb0cea0.jpg
+index_img: https://pic.imgdb.cn/item/65411997c458853aefb0cea0.jpg # Tooth Fairy
 
 # If the banner of page not setting, it will show the top_img
-default_top_img:
+default_top_img: https://picst.sunbangyan.cn/2023/11/01/726c9135941a45c63cda8be4252e2541.jpg # A Knight
 
 # The banner image of archive page
-archive_img: https://pic.imgdb.cn/item/65411f6cc458853aefd6ac97.jpg
+archive_img: https://picst.sunbangyan.cn/2023/11/01/072e9eee8e1b3589cbbe1f02607b5149.jpg # Druvis III
 
 # If the banner of tag page not setting, it will show the top_img
 # note: tag page, not tags page (子標籤頁面的 top_img)
@@ -87,7 +89,16 @@ cover:
   position: both
   # When cover is not set, the default cover is displayed (當沒有設置cover時，默認的封面顯示)
   default_cover:
-    # - https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg
+    - https://picdm.sunbangyan.cn/2023/11/01/2b2cf236d9ed5c32da8684f7fc0e114e.jpg
+    - https://picdm.sunbangyan.cn/2023/11/01/09b61f9f7522b29c5950fa68c905b2de.jpg
+    - https://picss.sunbangyan.cn/2023/11/01/9ba40c2d619a4257dd3f2c29e17873e7.jpg
+    - https://picdl.sunbangyan.cn/2023/11/01/688b8c8faaab9d4c99c8ccf3e88e339c.jpg
+    - https://picdm.sunbangyan.cn/2023/11/01/6dc83ed1fa033854438f04949b369882.jpg
+    - https://picdm.sunbangyan.cn/2023/11/01/30843f85495eea993f4d73d31cdc8b2a.jpg
+    - https://picst.sunbangyan.cn/2023/11/01/92248124841185ac40524ed16a32156d.jpg
+    - https://picdm.sunbangyan.cn/2023/11/01/a5ee6d28716384ccc1b93f027bf82c4f.jpg
+
+
 
 # Replace Broken Images (替換無法顯示的圖片)
 error_img:
@@ -105,7 +116,7 @@ post_meta:
     date_type: created # created or updated or both 主頁文章日期是創建日或者更新日或都顯示
     date_format: date # date/relative 顯示日期還是相對日期
     categories: true # true or false 主頁是否顯示分類
-    tags: false # true or false 主頁是否顯示標籤
+    tags: true # true or false 主頁是否顯示標籤
     label: true # true or false 顯示描述性文字
   post:
     date_type: both # created or updated or both 文章頁日期是創建日或者更新日或都顯示
@@ -131,12 +142,12 @@ anchor:
   click_to_scroll: false
 
 # figcaption (圖片描述文字)
-photofigcaption: false
+photofigcaption: true
 
 # copy settings
 # copyright: Add the copyright information after copied content (複製的內容後面加上版權信息)
 copy:
-  enable: true
+  enable: false
   copyright:
     enable: false
     limit_count: 50
@@ -208,7 +219,7 @@ footer:
   owner:
     enable: true
     since: 2020
-  custom_text:
+  custom_text: Regna sereno intenso ed infinito.
   copyright: true # Copyright of theme and framework
 
 # aside (側邊欄)
@@ -219,7 +230,7 @@ aside:
   hide: false
   button: true
   mobile: true # display on mobile
-  position: right # left or right
+  position: left # left or right
   display:
     archive: true
     tag: true
@@ -248,7 +259,7 @@ aside:
   card_tags:
     enable: true
     limit: 40 # if set 0 will show all
-    color: false
+    color: true
     orderby: random # Order of tags, random/name/length
     order: 1 # Sort of order. 1, asc for ascending; -1, desc for descending
     sort_order: # Don't modify the setting unless you know how it works
@@ -284,7 +295,7 @@ runtimeshow:
 
 # Aside widget - Newest Comments
 newest_comments:
-  enable: false
+  enable: true
   sort_order: # Don't modify the setting unless you know how it works
   limit: 6
   storage: 10 # unit: mins, save data to localStorage
@@ -295,7 +306,7 @@ newest_comments:
 
 # Conversion between Traditional and Simplified Chinese (簡繁轉換)
 translate:
-  enable: false
+  enable: true
   # The text of a button
   default: 繁
   # the language of website (1 - Traditional Chinese/ 2 - Simplified Chinese）
@@ -407,9 +418,9 @@ comments:
   text: true # Display the comment name next to the button
   # lazyload: The comment system will be load when comment element enters the browser's viewport.
   # If you set it to true, the comment count will be invalid
-  lazyload: false
-  count: false # Display comment count in post's top_img
-  card_post_count: false # Display comment count in Home Page
+  lazyload: true
+  count: true # Display comment count in post's top_img
+  card_post_count: true # Display comment count in Home Page
 
 # disqus
 # https://disqus.com/
@@ -641,10 +652,10 @@ text_align_justify: false
 # Website Background (設置網站背景)
 # can set it to color or image (可設置圖片 或者 顔色)
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
-background:
+background: url(https://picst.sunbangyan.cn/2023/11/01/a8393aa1d6956231009236e544286e55.jpg)
 
 # Footer Background
-footer_bg: false
+footer_bg: true
 
 # Add mask to header or footer (为 header 或 footer 添加黑色半透遮罩)
 mask:
@@ -660,7 +671,7 @@ enter_transitions: true
 # Typewriter Effect (打字效果)
 # https://github.com/disjukr/activate-power-mode
 activate_power_mode:
-  enable: false
+  enable: true
   colorful: true # open particle animation (冒光特效)
   shake: true #  open shake (抖動特效)
   mobile: false
@@ -695,7 +706,7 @@ canvas_nest:
 
 # Mouse click effects: fireworks (鼠標點擊效果: 煙火特效)
 fireworks:
-  enable: false
+  enable: true
   zIndex: 9999 # -1 or 9999
   mobile: false
 
@@ -721,8 +732,8 @@ display_mode: light
 
 # Beautify (美化頁面顯示)
 beautify:
-  enable: false
-  field: post # site/post
+  enable: true
+  field: site # site/post
   title-prefix-icon: # '\f0c1'
   title-prefix-icon-color: # '#F47466'
 
@@ -748,7 +759,7 @@ hr_icon:
 
 # the subtitle on homepage (主頁subtitle)
 subtitle:
-  enable: false
+  enable: true
   # Typewriter Effect (打字效果)
   effect: true
   # Customize typed.js (配置typed.js)
@@ -763,6 +774,9 @@ subtitle:
   source: false
   # 如果關閉打字效果，subtitle 只會顯示 sub 的第一行文字
   sub:
+    - Every tree lives for tomorrow.  -- Vertin
+    - They will look haggard, but at the same time they will stand there upright. -- Druvis III
+    - I think, therefore I am.
 
 # Loading Animation (加載動畫)
 preloader:
