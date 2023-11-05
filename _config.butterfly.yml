@@ -53,7 +53,7 @@ avatar:
 disable_top_img: false
 
 # The banner image of home page
-index_img: https://pic.imgdb.cn/item/65411997c458853aefb0cea0.jpg # Tooth Fairy
+index_img: https://imgse.com/i/pinWGSs # Tooth Fairy
 
 # If the banner of page not setting, it will show the top_img
 default_top_img: https://picst.sunbangyan.cn/2023/11/01/726c9135941a45c63cda8be4252e2541.jpg # A Knight
@@ -89,14 +89,11 @@ cover:
   position: both
   # When cover is not set, the default cover is displayed (當沒有設置cover時，默認的封面顯示)
   default_cover:
-    - https://picdm.sunbangyan.cn/2023/11/01/2b2cf236d9ed5c32da8684f7fc0e114e.jpg
-    - https://picdm.sunbangyan.cn/2023/11/01/09b61f9f7522b29c5950fa68c905b2de.jpg
-    - https://picss.sunbangyan.cn/2023/11/01/9ba40c2d619a4257dd3f2c29e17873e7.jpg
-    - https://picdl.sunbangyan.cn/2023/11/01/688b8c8faaab9d4c99c8ccf3e88e339c.jpg
-    - https://picdm.sunbangyan.cn/2023/11/01/6dc83ed1fa033854438f04949b369882.jpg
-    - https://picdm.sunbangyan.cn/2023/11/01/30843f85495eea993f4d73d31cdc8b2a.jpg
-    - https://picst.sunbangyan.cn/2023/11/01/92248124841185ac40524ed16a32156d.jpg
-    - https://picdm.sunbangyan.cn/2023/11/01/a5ee6d28716384ccc1b93f027bf82c4f.jpg
+    - https://pic.imgdb.cn/item/65475dd9c458853aef0c1b35.jpg
+    - https://pic.imgdb.cn/item/65475dd9c458853aef0c1d24.jpg
+    - https://pic.imgdb.cn/item/65475ddac458853aef0c1e3b.jpg
+    - https://pic.imgdb.cn/item/65475ddac458853aef0c1f55.jpg
+    - https://pic.imgdb.cn/item/65475ddbc458853aef0c2185.jpg
 
 
 
