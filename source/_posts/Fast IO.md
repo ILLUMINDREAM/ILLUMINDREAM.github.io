@@ -4,6 +4,7 @@ date: 2023-11-01
 tag: 卡常
 categories: 基础语法
 top_img: https://pic.imgdb.cn/item/65475ddac458853aef0c1e3b.jpg
+cover: https://pic.imgdb.cn/item/65475ddac458853aef0c1e3b.jpg
 ---
 
 ## Fast IO (fread, fwrite)

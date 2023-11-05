@@ -53,7 +53,7 @@ avatar:
 disable_top_img: false
 
 # The banner image of home page
-index_img: https://imgse.com/i/pinWGSs # Tooth Fairy
+index_img: https://pic.imgdb.cn/item/65477b9bc458853aef6d21d1.jpg # Tooth Fairy
 
 # If the banner of page not setting, it will show the top_img
 default_top_img: https://picst.sunbangyan.cn/2023/11/01/726c9135941a45c63cda8be4252e2541.jpg # A Knight
@@ -91,7 +91,6 @@ cover:
   default_cover:
     - https://pic.imgdb.cn/item/65475dd9c458853aef0c1b35.jpg
     - https://pic.imgdb.cn/item/65475dd9c458853aef0c1d24.jpg
-    - https://pic.imgdb.cn/item/65475ddac458853aef0c1e3b.jpg
     - https://pic.imgdb.cn/item/65475ddac458853aef0c1f55.jpg
     - https://pic.imgdb.cn/item/65475ddbc458853aef0c2185.jpg
 
