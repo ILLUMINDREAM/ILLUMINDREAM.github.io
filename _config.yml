@@ -99,16 +99,14 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: butterfly
 
+encrypt:
+  enable: true
+
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
 
-kramed:
-  gfm: true
-  pedantic: false
-  sanitize: false
-  tables: true
-  breaks: true
-  smartLists: true
-  smartypants: true
+markdown:
+    plugins:
+      - '@renbaoshuo/markdown-it-katex'
