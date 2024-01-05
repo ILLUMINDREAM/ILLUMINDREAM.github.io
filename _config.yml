@@ -120,4 +120,4 @@ search:
 lazyload:
   enable: true 
   onlypost: false
-  loadingImg: # eg. ./images/loading.png 
+  loadingImg: https://picdm.sunbangyan.cn/2024/01/05/730aa7d2f09ac354ac6339c80c5dc4f8.jpeg
