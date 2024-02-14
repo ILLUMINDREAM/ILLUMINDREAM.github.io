@@ -18,6 +18,7 @@ menu:
   #   Movie: /movies/ || fas fa-video
   影音 || fas fa-list:
       图集: /images/ || fas fa-images
+      音乐: /music/ || fas fa-music
   友链: /link/ || fas fa-link
   # 关于: /about/ || fas fa-heart
 
@@ -854,14 +855,14 @@ note:
 # It may contain bugs and unstable, give feedback when you find the bugs.
 # https://github.com/MoOx/pjax
 pjax:
-  enable: false
+  enable: true
   exclude:
     # - xxxx
     # - xxxx
 
 # Inject the css and script (aplayer/meting)
 aplayerInject:
-  enable: false
+  enable: true
   per_page: true
 
 # Snackbar (Toast Notification 彈窗)
@@ -927,6 +928,8 @@ inject:
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
     # - <script src="xxxx"></script>
+    - <div class="aplayer no-destroy" data-id="1390431363" data-server="netease" data-type="song" data-fixed="true" data-mini="true" data-autoplay="true" data-lrctype=0 data-mutex="true"> </div>
+
 
 # CDN
 # Don't modify the following settings unless you know how they work

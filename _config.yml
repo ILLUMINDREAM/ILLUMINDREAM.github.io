@@ -40,7 +40,7 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: true
+post_asset_folder: false
 relative_link: false
 future: true
 highlight:
@@ -107,10 +107,6 @@ encrypt:
 deploy:
   type: ''
 
-markdown:
-    plugins:
-      - '@renbaoshuo/markdown-it-katex'
-
 search:
   path: search.xml
   field: post
@@ -121,3 +117,11 @@ lazyload:
   enable: true 
   onlypost: false
   loadingImg: https://picdm.sunbangyan.cn/2024/01/05/730aa7d2f09ac354ac6339c80c5dc4f8.jpeg
+
+markdown:
+    plugins:
+      - '@renbaoshuo/markdown-it-katex'
+
+aplayer:
+  meting: true
+  asset_inject: false
