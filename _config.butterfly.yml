@@ -54,7 +54,8 @@ avatar:
 disable_top_img: false
 
 # The banner image of home page
-index_img: https://pic.imgdb.cn/item/65477b9bc458853aef6d21d1.jpg # Tooth Fairy
+# index_img: https://pic.imgdb.cn/item/65477b9bc458853aef6d21d1.jpg # Tooth Fairy
+index_img: https://pic.imgdb.cn/item/66589399d9c307b7e9c7d6dc.jpg # Skadi
 
 # If the banner of page not setting, it will show the top_img
 default_top_img: https://pic.imgdb.cn/item/65478fa3c458853aefb8d4c8.jpg # A Knight
